@@ -1,0 +1,39 @@
+@import colors
+@import boxes
+@import fonts
+
+a.button-primary
+  :display inline-block
+  :text-decoration none
+  :text-align center
+  :padding 4px 10px 6px 10px
+  @include gradient($newcolor1, $newcolor2)
+  :border $green2 solid 1px
+  @include box-rounded-hard
+  span
+    color: $white1
+
+a.button-primary:hover
+  @include gradient($newcolor1, $newcolor3)
+
+a.button-primary span
+  :font-weight bold
+
+@mixin button-secondary
+  :display inline-block
+  :text-decoration none
+  :text-align center
+  :padding 4px 10px 6px 10px
+  :border $beige1 solid 1px
+  @include box-rounded-hard
+  @include gradient($white1,$white3)
+
+a.button-secondary-normal
+  @include button-secondary
+  span
+    @include font-normal
+
+a.button-secondary-small
+  @include button-secondary
+  span
+    @include font-small
