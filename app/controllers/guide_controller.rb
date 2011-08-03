@@ -18,6 +18,8 @@ class GuideController < ApplicationController
         render 'homepage'
       when 'search'
         render 'search'
+      when 'adv_search'
+        render 'adv_search'
     end
 
   end

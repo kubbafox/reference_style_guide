@@ -18,6 +18,15 @@ footer {
   padding-bottom: 20px;
 }
 
+header p { /* breadcrumbs */
+  padding: 0;
+  margin: 0;
+}
+header h1 { /* page title */
+  padding: 0;
+  margin: 5px 0px 5px 0px;
+}
+
 div.homepage-col-left {
   width: 580px;
   float: left;
@@ -43,11 +52,16 @@ div.search-col-right {
   border-left: #ddd 2px solid; /* override the left side, to put a drop-shadow there */
 }
 
-header p { /* breadcrumbs */
-  padding: 0;
-  margin: 0;
+div.adv-search-col-left {
+  width: 226px;
+  float: left;
+  padding: 5px 0px 5px 5px;
+
+  border-right: none;
 }
-header h1 { /* page title */
-  padding: 0;
-  margin: 5px 0px 5px 0px;
+
+div.adv-search-col-right {
+  width: 712px;
+  float: right;
+  padding: 6px;
 }
