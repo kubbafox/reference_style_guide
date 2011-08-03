@@ -1,9 +1,11 @@
-<div class="widget-colored-title box-rounded-top gradient-top-beige1-bottom-beige2">
-  <h2 class="font-xbig2 color-white1"><%= title -%></h2>
+<div class="widget-colored-secondary-title">
+  <h2><%= title -%></h2>
   <% if defined? rightlink %>
-    <p class="righttext"><a class="color-white1" href="<%= rightlink[:href] -%>"><%= rightlink[:label] -%></a></p>
+    <p class="righttext">
+      <a href="<%= rightlink[:href] -%>"><%= rightlink[:label] -%></a>
+    </p>
   <% end %>
 </div>
-<div class="widget-colored-bottom border-color-beige2 gradient-top-white1-bottom-white3">
+<div class="widget-colored-secondary-bottom">
   <%= yield %>
 </div>

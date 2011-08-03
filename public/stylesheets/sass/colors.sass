@@ -147,3 +147,8 @@ $black1: #000000
 .gradient-top-white1-bottom-white3
   :background-image -moz-linear-gradient(top, $white1, $white3)
   :background-image -webkit-gradient(linear, left top, left bottom, from($white1), to($white3))
+
+@mixin gradient($color1, $color2)
+  :background-image -moz-linear-gradient(top, $color1, $color2)
+  :background-image -webkit-gradient(linear, left top, left bottom, from($color1), to($color2))
+
