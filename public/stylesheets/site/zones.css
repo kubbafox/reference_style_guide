@@ -55,9 +55,9 @@ div.search-col-right {
 div.adv-search-col-left {
   width: 226px;
   float: left;
-  padding: 5px 0px 5px 5px;
+  padding: 6px 0px 6px 6px;
 
-  border-right: none;
+  border-right: 0px;
 }
 
 div.adv-search-col-right {

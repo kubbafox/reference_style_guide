@@ -57,6 +57,10 @@ div.widget-colored-bottom p {
 div.widget-colored-bottom div.inner {
 }
 
+/* 
+ * Search results widget
+ */ 
+
 div.adv-search-results div.title {
   padding: 5px;
 }
@@ -103,7 +107,28 @@ div.adv-search-results div.main-bg div.table-result {
   padding: 5px;
   border-bottom: #e0e0e0 1px solid;
 }
+
 div.adv-search-results div.summary {
   padding: 5px;
+  text-align: center;
+}
+
+/* 
+ * Search results widget
+ */ 
+
+div.adv-search-params {
+  border-right: 0px;
+}
+
+div.adv-search-params div {
+  padding: 6px;
+}
+
+div.adv-search-params div.form {
+  border-bottom: #cdc7be 1px solid;
+}
+
+div.adv-search-params div.bottom {
   text-align: center;
 }
