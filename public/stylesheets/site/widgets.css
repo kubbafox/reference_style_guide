@@ -57,6 +57,53 @@ div.widget-colored-bottom p {
 div.widget-colored-bottom div.inner {
 }
 
-div.adv-search-results-title {
+div.adv-search-results div.title {
   padding: 5px;
+}
+
+div.adv-search-results div.title span.matches {
+  display: inline-block;
+  width: 300px;
+}
+
+div.adv-search-results div.title span.matches {
+  display: inline-block;
+  width: 300px;
+}
+
+div.adv-search-results div.title span.pagination {
+  margin-top:1px;
+  float: right;
+}
+
+div.adv-search-results div.title span.pagination span {
+  padding: 0px 3px 0px 3px;
+}
+
+div.adv-search-results div.title span.pagination a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #cbd486;
+}
+
+div.adv-search-results div.title span.pagination a:hover {
+  background-color: #d8e091;
+}
+
+div.adv-search-results div.main-bg {
+  padding: 5px;
+}
+
+div.adv-search-results div.main-bg div.table-header {
+  padding: 5px;
+  border-bottom: #cdc7be 1px solid;
+}
+
+div.adv-search-results div.main-bg div.table-result {
+  padding: 5px;
+  border-bottom: #e0e0e0 1px solid;
+}
+div.adv-search-results div.summary {
+  padding: 5px;
+  text-align: center;
 }
