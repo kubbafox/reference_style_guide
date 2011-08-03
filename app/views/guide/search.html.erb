@@ -1,0 +1,47 @@
+<div class="search-col-left box-rounded border-color-beige1">
+
+  <% render :layout=>'widget-colored-primary', 
+            :locals=>{:title=>"widget-colored-primary", 
+                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
+    <% render :layout=>'widget-colored-primary-inner' do %>
+      These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the left column.<br /><br />Green stands out somewhat more than beige/gray, so this is the container for primary content.
+    <% end %>
+  <% end %>
+
+  <% render :layout=>'widget-colored-primary', 
+            :locals=>{:title=>"widget-colored-primary", 
+                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
+    <% render :layout=>'widget-colored-primary-inner' do %>
+      These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the left column.<br /><br />Green stands out somewhat more than beige/gray, so this is the container for primary content.
+    <% end %>
+  <% end %>
+
+  <% render :layout=>'widget-colored-primary', 
+            :locals=>{:title=>"widget-colored-primary", 
+                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
+    <% render :layout=>'widget-colored-primary-inner' do %>
+      These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the left column.<br /><br />Green stands out somewhat more than beige/gray, so this is the container for primary content.
+    <% end %>
+  <% end %>
+
+</div>
+
+<div class="search-col-right box-rounded-right border-color-beige1">
+
+  <% render :layout=>'widget-colored-secondary', 
+            :locals=>{:title=>"widget-colored-secondary", 
+                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
+    <% render :layout=>'widget-colored-secondary-inner' do %>
+      These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the right column.<br /><br />Beige/gray is subtler than green, so this is the container for secondary content.
+    <% end %>
+  <% end %>
+
+  <% render :layout=>'widget-colored-secondary', 
+            :locals=>{:title=>"widget-colored-secondary", 
+                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
+    <% render :layout=>'widget-colored-secondary-inner' do %>
+      These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the right column.<br /><br />Beige/gray is subtler than green, so this is the container for secondary content.
+    <% end %>
+  <% end %>
+
+</div>

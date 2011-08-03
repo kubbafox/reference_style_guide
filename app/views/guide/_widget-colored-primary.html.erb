@@ -1,0 +1,9 @@
+<div class="widget-colored-title box-rounded-top gradient-top-green1-bottom-green2">
+  <h2 class="font-xbig2 color-white1"><%= title -%></h2>
+  <% if defined? rightlink %>
+    <p class="righttext"><a class="color-white1" href="<%= rightlink[:href] -%>"><%= rightlink[:label] -%></a></p>
+  <% end %>
+</div>
+<div class="widget-colored-bottom border-color-green2 gradient-top-white1-bottom-white3">
+  <%= yield %>
+</div>

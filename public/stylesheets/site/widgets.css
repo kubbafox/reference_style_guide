@@ -1,0 +1,60 @@
+
+/* 
+ * Neutral Widget (the kind on the homepage)
+ */ 
+
+div.widget-neutral {
+  margin: 0px;
+  margin-bottom: 10px;
+} 
+
+div.widget-neutral h2 {
+  display: inline;
+}
+
+div.widget-neutral div.inner {
+  margin-top: 5px;
+}
+
+div.widget-neutral div.inner h3 {
+  font-weight: normal;
+
+  padding: 0px;
+  margin: 0px 0px 5px 0px;
+}
+
+/* 
+ * Widget 2 - has a gradient title bar and smaller title text
+ */ 
+
+div.widget-colored-title {
+  height: 16px;
+  margin-bottom: 0; /* override rounded-box default */
+}
+
+div.widget-colored-title h2 {
+  display: inline;
+  float: left;
+  margin: 0px 6px 0px 6px;
+}
+
+div.widget-colored-title p.righttext {
+  display: inline;
+  float: right;
+  margin: 0px 6px 0px 6px;
+}
+
+div.widget-colored-bottom {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+div.widget-colored-bottom p {
+  margin: 0px;
+  padding: 10px 0px 15px 0px;
+}
+
+div.widget-colored-bottom div.inner {
+  padding: 5px;
+}
+
