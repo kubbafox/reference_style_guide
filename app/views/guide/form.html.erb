@@ -1,11 +1,10 @@
 <p class="font-small"><%= link_to 'Style Guide' %> >> Forms</p>
 <h1 class="font-xbig">Style Guide: Forms</h1>
 
-<div class="search-col-left">
+<div style="width:500px;">
 
   <% render :layout=>'widget-colored-primary', 
-            :locals=>{:title=>"widget-colored-primary", 
-                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
+            :locals=>{:title=>"Form Elements" } do %>
     <% render :layout=>'widget-colored-primary-inner' do %>
 
       <div class="form_section">
@@ -111,17 +110,6 @@
       </div>
 
       <%= render :partial => 'button-primary', :locals => { :href=>"", :label=>"Search" } %>
-    <% end %>
-  <% end %>
-
-</div>
-<div class="search-col-right">
-
-  <% render :layout=>'widget-colored-secondary', 
-            :locals=>{:title=>"widget-colored-secondary", 
-                      :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
-    <% render :layout=>'widget-colored-secondary-inner' do %>
-      These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the right column.<br /><br />Beige/gray is subtler than green, so this is the container for secondary content.
     <% end %>
   <% end %>
 

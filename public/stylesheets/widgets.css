@@ -655,13 +655,38 @@ div.adv-search-results div.summary {
 /* Search results widget
  */
 div.adv-search-params {
-  border-right: 0px; }
+  border: #bbb0a3 1px solid;
+  border-right: 0px;
+  margin-top: 10px; }
   div.adv-search-params div {
     padding: 6px; }
-  div.adv-search-params div.form {
-    border-bottom: #cdc7be 1px solid; }
+  div.adv-search-params div.title {
+    font: bold 14px/1.2 "Trebuchet MS";
+    line-height: 21px;
+    color: #424242;
+    background-image: -moz-linear-gradient(top, #f8f3e7, #d6d1d5);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f3e7), to(#d6d1d5)); }
+  div.adv-search-params div.category {
+    background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd));
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: bold; }
+  div.adv-search-params div.subcategory {
+    border-top: #cdc7be 1px solid; }
+    div.adv-search-params div.subcategory span.count {
+      float: right;
+      color: #695e49; }
   div.adv-search-params div.bottom {
-    text-align: center; }
+    border-top: #cdc7be 1px solid;
+    text-align: center;
+    background-image: -moz-linear-gradient(top, white, #e0e0e0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e0e0e0));
+    font: 10px Tahoma, Geneva, sans-serif; }
+
+div.adv-search-params:first-child {
+  margin-top: 0; }
 
 /* Menubar widget in the header
  */
