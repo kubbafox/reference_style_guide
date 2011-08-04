@@ -464,3 +464,30 @@ div.adv-search-params {
     border-bottom: #cdc7be 1px solid; }
   div.adv-search-params div.bottom {
     text-align: center; }
+
+/* Menubar widget in the header
+ */
+header div.menubar {
+  padding: 5px;
+  margin-bottom: 10px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: #bbb0a3 solid 1px;
+  background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd));
+  padding: 0px; }
+  header div.menubar a {
+    display: inline-block;
+    text-decoration: none;
+    border-right: #bbb0a3 solid 1px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    header div.menubar a span {
+      padding: 10px; }

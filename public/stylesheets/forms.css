@@ -1,0 +1,266 @@
+.color-white1 {
+  color: white; }
+
+.color-white2 {
+  color: #fbf9fa; }
+
+.color-white3 {
+  color: #e0e0e0; }
+
+.color-blue-gray1 {
+  color: #d9d9d9; }
+
+.color-blue-gray2 {
+  color: #cbcbcb; }
+
+.color-blue-gray3 {
+  color: #666666; }
+
+.color-blue-gray4 {
+  color: #424242; }
+
+.color-blue-gray5 {
+  color: #333333; }
+
+.color-beige00 {
+  color: #f5efdd; }
+
+.color-beige0 {
+  color: #cdc7be; }
+
+.color-beige1 {
+  color: #bbb0a3; }
+
+.color-beige2 {
+  color: #695e49; }
+
+.color-green00 {
+  color: #d8e091; }
+
+.color-green0 {
+  color: #cbd486; }
+
+.color-green1 {
+  color: #96a336; }
+
+.color-green2 {
+  color: #566c11; }
+
+.color-green3 {
+  color: #445708; }
+
+.color-black1 {
+  color: black; }
+
+.bg-color-white1 {
+  background-color: white; }
+
+.bg-color-white2 {
+  background-color: #fbf9fa; }
+
+.bg-color-white3 {
+  background-color: #e0e0e0; }
+
+.bg-color-blue-gray1 {
+  background-color: #d9d9d9; }
+
+.bg-color-blue-gray2 {
+  background-color: #cbcbcb; }
+
+.bg-color-blue-gray3 {
+  background-color: #666666; }
+
+.bg-color-blue-gray4 {
+  background-color: #424242; }
+
+.bg-color-blue-gray5 {
+  background-color: #333333; }
+
+.bg-color-beige00 {
+  background-color: #f5efdd; }
+
+.bg-color-beige0 {
+  background-color: #cdc7be; }
+
+.bg-color-beige1 {
+  background-color: #bbb0a3; }
+
+.bg-color-beige2 {
+  background-color: #695e49; }
+
+.bg-color-green00 {
+  background-color: #d8e091; }
+
+.bg-color-green0 {
+  background-color: #cbd486; }
+
+.bg-color-green1 {
+  background-color: #96a336; }
+
+.bg-color-green2 {
+  background-color: #566c11; }
+
+.bg-color-green3 {
+  background-color: #445708; }
+
+.bg-color-black1 {
+  background-color: black; }
+
+.border-color-white1 {
+  border: white 1px solid; }
+
+.border-color-white2 {
+  border: #fbf9fa 1px solid; }
+
+.border-color-white3 {
+  border: #e0e0e0 1px solid; }
+
+.border-color-blue-gray1 {
+  border: #d9d9d9 1px solid; }
+
+.border-color-blue-gray2 {
+  border: #cbcbcb 1px solid; }
+
+.border-color-blue-gray3 {
+  border: #666666 1px solid; }
+
+.border-color-blue-gray4 {
+  border: #424242 1px solid; }
+
+.border-color-blue-gray5 {
+  border: #333333 1px solid; }
+
+.border-color-beige00 {
+  border: #f5efdd 1px solid; }
+
+.border-color-beige0 {
+  border: #cdc7be 1px solid; }
+
+.border-color-beige1 {
+  border: #bbb0a3 1px solid; }
+
+.border-color-beige2 {
+  border: #695e49 1px solid; }
+
+.border-color-green00 {
+  border: #d8e091 1px solid; }
+
+.border-color-green0 {
+  border: #cbd486 1px solid; }
+
+.border-color-green1 {
+  border: #96a336 1px solid; }
+
+.border-color-green2 {
+  border: #566c11 1px solid; }
+
+.border-color-green3 {
+  border: #445708 1px solid; }
+
+.border-color-black1 {
+  border: black 1px solid; }
+
+.gradient-top-white2-bottom-beige00 {
+  background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd)); }
+
+.gradient-top-green0-bottom-green1 {
+  background-image: -moz-linear-gradient(top, #cbd486, #96a336);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cbd486), to(#96a336)); }
+
+.gradient-top-green1-bottom-green2 {
+  background-image: -moz-linear-gradient(top, #96a336, #566c11);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#96a336), to(#566c11)); }
+
+.gradient-top-beige1-bottom-beige2 {
+  background-image: -moz-linear-gradient(top, #bbb0a3, #695e49);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bbb0a3), to(#695e49)); }
+
+.gradient-top-white1-bottom-white3 {
+  background-image: -moz-linear-gradient(top, white, #e0e0e0);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e0e0e0)); }
+
+/* box title (widget 1) */
+.font-xbig {
+  font: bold 20px "Trebuchet MS", sans-serif;
+  text-decoration: none; }
+
+/* box title (widget 2) */
+.font-xbig2 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: bold; }
+
+/* box subheading */
+.font-big {
+  font: bold 14px/1.2 "Trebuchet MS";
+  line-height: 21px; }
+
+/* default body text */
+body {
+  font: 13px Tahoma, Geneva, sans-serif; }
+
+.font-normal {
+  font: 13px Tahoma, Geneva, sans-serif; }
+
+/* small links (e.g., box-titlebar action) */
+.font-small {
+  font: 10px Tahoma, Geneva, sans-serif; }
+
+.dotted-underline {
+  border-bottom: #bbb0a3 dotted 1px; }
+
+div.form_section {
+  margin-bottom: 15px; }
+  div.form_section h3 {
+    font: bold 14px/1.2 "Trebuchet MS";
+    line-height: 21px;
+    margin: 0px; }
+  div.form_section span.form_row {
+    display: block;
+    margin-bottom: 4px; }
+    div.form_section span.form_row span.row_label {
+      display: inline-block;
+      width: 60px; }
+    div.form_section span.form_row span.field {
+      display: inline-block; }
+      div.form_section span.form_row span.field span.label {
+        font: 10px Tahoma, Geneva, sans-serif;
+        color: #666666;
+        display: block; }
+
+select.date-day {
+  width: 50px; }
+
+select.date-month {
+  width: 50px; }
+
+input.date-year {
+  width: 40px; }
+
+input.location {
+  width: 138px; }
+
+input.keyword {
+  width: 360px; }
+
+select.gender {
+  width: 132px; }
+
+input.race-nationality {
+  width: 225px; }
+
+input.first-middle-names {
+  width: 175px; }
+
+input.last-name {
+  width: 175px; }
+
+select.family-member-relationship {
+  width: 100px; }
+
+input.family-member-first-name {
+  width: 100px; }
+
+input.family-member-last-name {
+  width: 100px; }

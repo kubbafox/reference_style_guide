@@ -14,6 +14,8 @@ class GuideController < ApplicationController
         render 'font'
       when 'color'
         render 'color'
+      when 'form'
+        render 'form'
       when 'homepage'
         render 'homepage'
       when 'search'
