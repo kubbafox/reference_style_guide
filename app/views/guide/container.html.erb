@@ -1,14 +1,13 @@
-<p class="font-small"><%= link_to 'Style Guide' %> >> Widgets</p>
-<h1 class="font-xbig">Style Guide: Widgets</h1>
-
+<p class="font-small"><%= link_to 'Style Guide' %> >> Containers</p>
+<h1 class="font-xbig">Style Guide: Containers</h1>
 
 <div class="homepage-col-left">
 
-  <% render :layout=>'widget-neutral', :locals=>{:title=>'widget-neutral'} do %>
+  <% render :layout=>'container-neutral', :locals=>{:title=>'container-neutral'} do %>
     These are mostly used on the homepage (see <a href="homepage_guide.html">Homepage Guide</a>) as a fairly netural container.
   <% end %>
 
-  <% render :layout=>'widget-neutral', :locals=>{:title=>'widget-neutral'} do %>
+  <% render :layout=>'container-neutral', :locals=>{:title=>'container-neutral'} do %>
     <h3 class="font-big color-beige2 dotted-underline">Subheading</h3>
     Inner text.  Inner text.  Inner text.  Inner text.  Inner text.  
     Inner text.  Inner text.  Inner text.  <a href="">link text</a> <br />
@@ -22,26 +21,26 @@
     Inner text.  Inner text.  Inner text.  <a href="">link text</a> <br />
   <% end %>
 
-  <% render :layout=>'widget-colored-primary', 
-            :locals=>{:title=>"widget-colored-primary", 
+  <% render :layout=>'container-colored-primary', 
+            :locals=>{:title=>"container-colored-primary", 
                       :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
-    <% render :layout=>'widget-colored-primary-inner' do %>
+    <% render :layout=>'container-colored-primary-inner' do %>
       These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the left column.<br /><br />Green stands out somewhat more than beige/gray, so this is the container for primary content.
     <% end %>
   <% end %>
 
-  <% render :layout=>'widget-colored-secondary', 
-            :locals=>{:title=>"widget-colored-secondary", 
+  <% render :layout=>'container-colored-secondary', 
+            :locals=>{:title=>"container-colored-secondary", 
                       :rightlink=>{:href=>"", :label=>"Right side link"} } do %>
-    <% render :layout=>'widget-colored-secondary-inner' do %>
+    <% render :layout=>'container-colored-secondary-inner' do %>
       These are used on the search page (see <a href="search_guide.html">Search Guide</a>), in the right column.<br /><br />Beige/gray is subtler than green, so this is the container for secondary content.
     <% end %>
   <% end %>
 
-  <% render :layout=>'widget-colored-secondary', 
-            :locals=>{:title=>"widget-colored-secondary" } do %>
+  <% render :layout=>'container-colored-secondary', 
+            :locals=>{:title=>"container-colored-secondary" } do %>
     <p>Outer text.  Outer text.  Outer text.  Outer text.  Outer text.  Outer text.</p>
-    <% render :layout=>'widget-colored-secondary-inner' do %>
+    <% render :layout=>'container-colored-secondary-inner' do %>
       Inner text.  Inner text.  Inner text.  Inner text.  Inner text.  
       Inner text.  Inner text.  Inner text.  <a href="">link text</a> <br />
     <% end %>

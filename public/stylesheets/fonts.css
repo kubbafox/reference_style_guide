@@ -1,27 +1,22 @@
-/* box title (widget 1) */
 .font-xbig {
   font: bold 20px "Trebuchet MS", sans-serif;
   text-decoration: none; }
 
-/* box title (widget 2) */
 .font-xbig2 {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 12px;
   font-weight: bold; }
 
-/* box subheading */
 .font-big {
   font: bold 14px/1.2 "Trebuchet MS";
   line-height: 21px; }
 
-/* default body text */
 body {
   font: 13px Tahoma, Geneva, sans-serif; }
 
 .font-normal {
   font: 13px Tahoma, Geneva, sans-serif; }
 
-/* small links (e.g., box-titlebar action) */
 .font-small {
   font: 10px Tahoma, Geneva, sans-serif; }
 

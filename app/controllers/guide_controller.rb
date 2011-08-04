@@ -1,27 +1,9 @@
 class GuideController < ApplicationController
   def index
-    # FIXME: this is the least DRY solution possible...
-    case params[:guide] || nil
-      when 'widget'
-        render 'widget'
-      when 'button'
-        render 'button'
-      when 'box'
-        render 'box'
-      when 'link'
-        render 'link'
-      when 'font'
-        render 'font'
-      when 'color'
-        render 'color'
-      when 'form'
-        render 'form'
-      when 'homepage'
-        render 'homepage'
-      when 'search'
-        render 'search'
-      when 'adv_search'
-        render 'adv_search'
+    guides = [ 'container', 'button', 'box', 'link', 'font', 
+               'color', 'form', 'homepage', 'search', 'adv_search' ]
+    if !params[:guide].nil? and guides.include?(params[:guide])
+      render params[:guide]
     end
 
   end
