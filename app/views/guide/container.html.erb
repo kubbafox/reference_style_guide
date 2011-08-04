@@ -45,6 +45,18 @@
       Inner text.  Inner text.  Inner text.  <a href="">link text</a> <br />
     <% end %>
   <% end %>
+
+  <% render :layout=>'container-search-form-simple', :locals=>{ } do %>
+  <% end %>
+
+  <% render :layout=>'container-search-facets', :locals=>{ } do %>
+  <% end %>
+
+  <br />
+
+  <% render :layout=>'container-search-results', :locals=>{ } do %>
+  <% end %>
+
 </div>
 
 <div class="homepage-col-right">
