@@ -1,6 +1,7 @@
 @import colors 
-@import boxes
 @import fonts
+@import links
+@import boxes
 
 /* 
  * Neutral Widget (the kind on the homepage)
@@ -46,7 +47,9 @@ div.widget-neutral
     :float right
     :margin 0px 6px 0px 6px
     a
-      :color $white1
+      @include link-on-bg-dark-normal
+    a:hover
+      @include link-on-bg-dark-hover
 
 div.widget-colored-primary-title
   @include widget-colored-title

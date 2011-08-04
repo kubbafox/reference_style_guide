@@ -186,5 +186,8 @@ a {
 a:hover {
   color: #96a336; }
 
-a.color-white1:hover {
+a.bg-dark {
+  color: white; }
+
+a.bg-dark:hover {
   color: white; }
