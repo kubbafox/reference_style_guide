@@ -1,87 +1,18 @@
 <p class="font-small"><%= link_to 'Style Guide' %> >> Advanced Search Pages</p>
 <h1 class="font-xbig">Style Guide: Advanced Search Pages</h1>
 
-<div class="adv-search-col-left border-color-beige1">
+<div class="adv-search-col-left">
 
-  <div class="adv-search-params">
-    <div class="title">Search Titles</div>
-    <div class="form">
-      Title<br />
-      <input><br />
-      Keyword(s)<br />
-      <input><br />
-    </div>
-    <div class="bottom">
-      <%= render :partial => 'button-primary', :locals => { :href=>"", :label=>"Search" } %>
-      or <a href="">Clear All</a>
-    </div>
-  </div>
+  <% render :layout => 'container-search-form-simple', :locals => { } do %>
+  <% end %>
 
-  <div class="adv-search-params">
-    <div class="title">Narrow by Category</div>
-    <div class="category"><font class="color-blue-gray3">&#9656;</font> All Categories</div>
-    <div class="category"><font class="color-blue-gray3">&#9662;</font> Military</div>
-    <div class="subcategory">
-      <a href="">Draft, Enlistment</a>
-      <span class="count">5,000+</span>
-    </div>
-    <div class="subcategory">
-      <a href="">Draft, Enlistment</a>
-      <span class="count">5,000+</span>
-    </div>
-    <div class="subcategory">
-      <a href="">Draft, Enlistment</a>
-      <span class="count">5,000+</span>
-    </div>
-  </div>
+  <% render :layout => 'container-search-facets', :locals => { } do %>
+  <% end %>
 
 </div>
-<div class="adv-search-col-right border-color-beige1" style="margin-left:0">
+<div class="adv-search-col-right">
 
-  <div class="adv-search-results border-color-beige1">
-    <div class="title color-blue-gray4 gradient-top-green0-bottom-green1">
-      <span class="matches font-big">Matches 1-25 of 30,176</span>
-      <span class="sort-by font-normal">Sort By <select><option>Popularity</option></select></span>
-      <span class="pagination">
-        <span class="border-color-beige2 color-black1">1</span>
-        <a href=""><span class="border-color-beige2">2</span></a>
-        ...
-        <a href=""><span class="border-color-beige2">11</span></a>
-        <a href=""><span class="border-color-beige2">&gt;</span></a>
-      </span>
-    </div>
-    <div class="main-bg bg-color-green00">
-      <div class="table-header bg-color-beige00 color-blue-gray3">
-        Title
-      </div>
-      <div class="table-result bg-color-white2">
-        Public Tree
-      </div>
-      <div class="table-result bg-color-white2">
-        1799 Muster Roll
-      </div>
-      <div class="table-result bg-color-white2">
-        1835 Tax List
-      </div>
-      <div class="table-result bg-color-white2">
-        1870 Census
-      </div>
-      <div class="table-result bg-color-white2">
-        1880 Census
-      </div>
-      <div class="table-result bg-color-white2">
-        1900 Census
-      </div>
-      <div class="table-result bg-color-white2">
-        1910 Census
-      </div>
-      <div class="table-result bg-color-white2">
-        1920 Census
-      </div>
-    </div>
-    <div class="summary font-small color-blue-gray4 gradient-top-white2-bottom-beige00">
-      1-25 of <b>30,176</b>
-    </div>
-  </div>
+  <% render :layout => 'container-search-results', :locals => { } do %>
+  <% end %>
 
 </div>
