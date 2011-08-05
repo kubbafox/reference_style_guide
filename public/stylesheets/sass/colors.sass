@@ -1,19 +1,18 @@
-$newcolor1: #f88017
-$newcolor2: #b35010
-$newcolor3: #c87024
-$newcolor4: #ddd
-
-$newcolor5: #f8f3e7
-$newcolor6: #d6d1d5
-
+$orange1: #f88017
+$orange2: #c87024
+$orange3: #b35010
+$offwhite1: #FBF9FA
+$offwhite2: #d6d1d5
 $white1: #FFFFFF
-$white2: #FBF9FA
-$white3: #E0E0E0
-$bluegray1: #D9D9D9
-$bluegray2: #CBCBCB
-$bluegray3: #666666
-$bluegray4: #424242
-$bluegray5: #333333
+$gray1: #E0E0E0
+$gray2: #D9D9D9
+$gray3: #ddd
+$gray4: #CBCBCB
+$gray5: #666666
+$gray6: #424242
+$gray7: #333333
+$black1: #000000
+$beige000: #f8f3e7
 $beige00: #f5efdd
 $beige0: #cdc7be
 $beige1: #BBB0A3
@@ -23,24 +22,23 @@ $green0: #cbd486
 $green1: #96A336
 $green2: #566C11
 $green3: #445708
-$black1: #000000
 
 .color-white1
   :color $white1
-.color-white2
-  :color $white2
-.color-white3
-  :color $white3
-.color-blue-gray1
-  :color $bluegray1
-.color-blue-gray2
-  :color $bluegray2
-.color-blue-gray3
-  :color $bluegray3
-.color-blue-gray4
-  :color $bluegray4
-.color-blue-gray5
-  :color $bluegray5
+.color-offwhite1
+  :color $offwhite1
+.color-gray1
+  :color $gray1
+.color-gray1
+  :color $gray2
+.color-gray4
+  :color $gray4
+.color-gray5
+  :color $gray5
+.color-gray6
+  :color $gray6
+.color-gray7
+  :color $gray7
 .color-beige00
   :color $beige00
 .color-beige0
@@ -61,23 +59,35 @@ $black1: #000000
   :color $green3
 .color-black1
   :color $black1
+.color-orange1
+  :color $orange1
+.color-orange2
+  :color $orange2
+.color-orange3
+  :color $orange3
+.color-gray3
+  :color $gray3
+.color-beige000
+  :color $beige000
+.color-offwhite2
+  :color $offwhite2
 
 .bg-color-white1
   :background-color $white1
-.bg-color-white2
-  :background-color $white2
-.bg-color-white3
-  :background-color $white3
-.bg-color-blue-gray1
-  :background-color $bluegray1
-.bg-color-blue-gray2
-  :background-color $bluegray2
-.bg-color-blue-gray3
-  :background-color $bluegray3
-.bg-color-blue-gray4
-  :background-color $bluegray4
-.bg-color-blue-gray5
-  :background-color $bluegray5
+.bg-color-offwhite1
+  :background-color $offwhite1
+.bg-color-gray1
+  :background-color $gray1
+.bg-color-gray2
+  :background-color $gray2
+.bg-color-gray4
+  :background-color $gray4
+.bg-color-gray5
+  :background-color $gray5
+.bg-color-gray6
+  :background-color $gray6
+.bg-color-gray7
+  :background-color $gray7
 .bg-color-beige00
   :background-color $beige00
 .bg-color-beige0
@@ -98,23 +108,35 @@ $black1: #000000
   :background-color $green3
 .bg-color-black1
   :background-color $black1
+.bg-color-orange1
+  :background-color $orange1
+.bg-color-orange2
+  :background-color $orange2
+.bg-color-orange3
+  :background-color $orange3
+.bg-color-gray3
+  :background-color $gray3
+.bg-color-beige000
+  :background-color $beige000
+.bg-color-offwhite2
+  :background-color $offwhite2
 
 .border-color-white1
   :border $white1 1px solid
-.border-color-white2
-  :border $white2 1px solid
-.border-color-white3
-  :border $white3 1px solid
-.border-color-blue-gray1
-  :border $bluegray1 1px solid
-.border-color-blue-gray2
-  :border $bluegray2 1px solid
-.border-color-blue-gray3
-  :border $bluegray3 1px solid
-.border-color-blue-gray4
-  :border $bluegray4 1px solid
-.border-color-blue-gray5
-  :border $bluegray5 1px solid
+.border-color-offwhite1
+  :border $offwhite1 1px solid
+.border-color-gray1
+  :border $gray1 1px solid
+.border-color-gray2
+  :border $gray2 1px solid
+.border-color-gray4
+  :border $gray4 1px solid
+.border-color-gray5
+  :border $gray5 1px solid
+.border-color-gray6
+  :border $gray6 1px solid
+.border-color-gray7
+  :border $gray7 1px solid
 .border-color-beige00
   :border $beige00 1px solid
 .border-color-beige0
@@ -135,26 +157,18 @@ $black1: #000000
   :border $green3 1px solid
 .border-color-black1
   :border $black1 1px solid
-
-.gradient-top-white2-bottom-beige00
-  :background-image -moz-linear-gradient(top, $white2, $beige00)
-  :background-image -webkit-gradient(linear, left top, left bottom, from($white2), to($beige00))
-
-.gradient-top-green0-bottom-green1
-  :background-image -moz-linear-gradient(top, $green0, $green1)
-  :background-image -webkit-gradient(linear, left top, left bottom, from($green0), to($green1))
-
-.gradient-top-green1-bottom-green2
-  :background-image -moz-linear-gradient(top, $green1, $green2)
-  :background-image -webkit-gradient(linear, left top, left bottom, from($green1), to($green2))
-
-.gradient-top-beige1-bottom-beige2
-  :background-image -moz-linear-gradient(top, $beige1, $beige2)
-  :background-image -webkit-gradient(linear, left top, left bottom, from($beige1), to($beige2))
-
-.gradient-top-white1-bottom-white3
-  :background-image -moz-linear-gradient(top, $white1, $white3)
-  :background-image -webkit-gradient(linear, left top, left bottom, from($white1), to($white3))
+.border-color-orange1
+  :border-color $orange1
+.border-color-orange2
+  :border-color $orange2
+.border-color-orange3
+  :border-color $orange3
+.border-color-gray3
+  :border-color $gray3
+.border-color-beige000
+  :border-color $beige000
+.border-color-offwhite2
+  :border-color $offwhite2
 
 @mixin gradient($color1, $color2)
   :background-image -moz-linear-gradient(top, $color1, $color2)

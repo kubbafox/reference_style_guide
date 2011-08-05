@@ -1,10 +1,9 @@
 To do:
-   * Abstract some of the containers on the advanced search page
-   * Add a non-rounded box type.  Use it for containers
-   * Do as much spacing/padding/margins there as possible
+   * Do as much spacing/padding/margins in containers as possible (no padding/margins elsewhere)
+
+   * look for mixins.  Those are examples of hierarchy
 
    * Label things on the forms page
 
    * Create an 'advanced seach page' vs. 'advanced search results page'
 
-   * Label the newcolor's and add them to the guide.  re-rationalize numbering then.

@@ -3,16 +3,21 @@
 
 <div class="adv-search-col-left">
 
-  <% render :layout => 'container-search-form-simple', :locals => { } do %>
+  <% render :layout=>'container-search-form-simple', :locals=>{:title=>'Search Titles'} do %>
   <% end %>
 
-  <% render :layout => 'container-search-facets', :locals => { } do %>
+  <% render :layout=>'container-search-facets', 
+            :locals=>{ :title=>'Narrow by Category',
+                       :categories=> ['All Categories','Military'],
+                       :sub_categories=> [{:name=>'Draft Cards', :count=>'3,291' },
+                                          {:name=>'WWI Rolls',   :count=>  '931' },
+                                          {:name=>'WWII Rolls',  :count=>   '12' } ] } do %>
   <% end %>
 
 </div>
 <div class="adv-search-col-right">
 
-  <% render :layout => 'container-search-results', :locals => { } do %>
+  <% render :layout=>'container-search-results', :locals=>{:title=>'Matches 1-25 of 30,176'} do %>
   <% end %>
 
 </div>
