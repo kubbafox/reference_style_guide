@@ -1,9 +1,8 @@
 To do:
-   * Do as much spacing/padding/margins in containers as possible (no padding/margins elsewhere)
-
-   * look for mixins.  Those are examples of hierarchy
-
+   * You need to build a couple rails forms so you know how they get built and styled 
    * Label things on the forms page
 
+   * Do as much spacing/padding/margins in containers as possible (no padding/margins elsewhere)
    * Create an 'advanced seach page' vs. 'advanced search results page'
+   * look for mixins.  Those are examples of hierarchy
 
