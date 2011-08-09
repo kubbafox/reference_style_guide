@@ -46,7 +46,15 @@
     <% end %>
   <% end %>
 
-  <% render :layout=>'container-search-form-simple', :locals=>{:title=>'Name: container-search-form-simple'} do %>
+  <% render :layout=>'container-search-form-simple', 
+            :locals=>{ :title => 'Name: container-search-form-simple' } do %>
+  <% end %>
+
+  <% render :layout=>'container-search-params', 
+            :locals=>{ :title => 'Name: container-search-params',
+                       :params => [ { :key => 'Key1', :value => 'Value1' },
+                                    { :key => 'Key2', :value => 'Value2' },
+                                    { :key => 'Key3', :value => 'Value3' } ] } do %>
   <% end %>
 
   <% render :layout=>'container-search-facets', 

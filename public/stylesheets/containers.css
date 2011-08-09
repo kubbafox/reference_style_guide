@@ -700,6 +700,19 @@ div.container-search-form-simple {
   div.container-search-form-simple div.title {
     background-image: -moz-linear-gradient(top, #f8f3e7, #d6d1d5);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f3e7), to(#d6d1d5)); }
+  div.container-search-form-simple div.param-list {
+    padding: 0;
+    border: 0; }
+    div.container-search-form-simple div.param-list div.param-row {
+      padding: 2px 2px 2px 5px;
+      margin: 0;
+      border-top: #cdc7be 1px solid; }
+      div.container-search-form-simple div.param-list div.param-row b {
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 12px;
+        font-weight: bold; }
+    div.container-search-form-simple div.param-list div.param-row:first-child {
+      border-top: none; }
   div.container-search-form-simple div.bottom {
     border-top: #cdc7be 1px solid;
     text-align: center;

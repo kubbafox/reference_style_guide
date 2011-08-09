@@ -108,6 +108,17 @@ div.container-colored-secondary-inner
 
 div.container-search-form-simple
   @include container-search-advanced-params-common
+  div.param-list
+    :padding 0
+    :border 0
+    div.param-row
+      :padding 2px 2px 2px 5px
+      :margin 0
+      :border-top $beige0 1px solid
+      b
+        @include font-xbig2
+    div.param-row:first-child
+      :border-top none
   div.bottom
     :border-top $beige0 1px solid
     :text-align center

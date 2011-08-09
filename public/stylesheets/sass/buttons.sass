@@ -6,7 +6,6 @@ a.button-primary
   :display inline-block
   :text-decoration none
   :text-align center
-  :padding 4px 10px 6px 10px
   @include gradient($orange1, $orange3)
   :border $green2 solid 1px
   @include box-rounded-hard
@@ -19,7 +18,24 @@ a.button-primary:hover
 a.button-primary span
   :font-weight bold
 
-@mixin button-secondary
+a.button-secondary
+  :display inline-block
+  :text-decoration none
+  :text-align center
+  @include gradient($green0, $green1)
+  :border $green2 solid 1px
+  @include box-rounded-hard
+  :padding-top 1px
+  :padding-bottom 1px
+  span
+    @include font-small
+    :font-weight bold
+    color: $white1
+
+a.button-secondary:hover
+  @include gradient($green00, $green1)
+
+@mixin button-tertiary
   :display inline-block
   :text-decoration none
   :text-align center
@@ -28,12 +44,12 @@ a.button-primary span
   @include box-rounded-hard
   @include gradient($white1,$gray1)
 
-a.button-secondary-normal
-  @include button-secondary
+a.button-tertiary-normal
+  @include button-tertiary
   span
     @include font-normal
 
-a.button-secondary-small
-  @include button-secondary
+a.button-tertiary-small
+  @include button-tertiary
   span
     @include font-small

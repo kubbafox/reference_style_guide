@@ -331,7 +331,6 @@ a.button-primary {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  padding: 4px 10px 6px 10px;
   background-image: -moz-linear-gradient(top, #f88017, #b35010);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f88017), to(#b35010));
   border: #566c11 solid 1px;
@@ -355,7 +354,35 @@ a.button-primary:hover {
 a.button-primary span {
   font-weight: bold; }
 
-a.button-secondary-normal {
+a.button-secondary {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-image: -moz-linear-gradient(top, #cbd486, #96a336);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cbd486), to(#96a336));
+  border: #566c11 solid 1px;
+  padding: 5px;
+  margin-bottom: 10px;
+  -moz-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px; }
+  a.button-secondary span {
+    font: 10px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: white; }
+
+a.button-secondary:hover {
+  background-image: -moz-linear-gradient(top, #d8e091, #96a336);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d8e091), to(#96a336)); }
+
+a.button-tertiary-normal {
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -373,10 +400,10 @@ a.button-secondary-normal {
   border-bottom-right-radius: 3px;
   background-image: -moz-linear-gradient(top, white, #e0e0e0);
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e0e0e0)); }
-  a.button-secondary-normal span {
+  a.button-tertiary-normal span {
     font: 13px Tahoma, Geneva, sans-serif; }
 
-a.button-secondary-small {
+a.button-tertiary-small {
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -394,5 +421,5 @@ a.button-secondary-small {
   border-bottom-right-radius: 3px;
   background-image: -moz-linear-gradient(top, white, #e0e0e0);
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e0e0e0)); }
-  a.button-secondary-small span {
+  a.button-tertiary-small span {
     font: 10px Tahoma, Geneva, sans-serif; }
