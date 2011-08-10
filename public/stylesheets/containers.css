@@ -720,29 +720,31 @@ div.container-search-form-simple {
     background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e0e0e0));
     font: 10px Tahoma, Geneva, sans-serif; }
 
-div.container-search-facets {
+div.container-search-facets, div.container-search-filters {
   border: #bbb0a3 1px solid;
   margin-top: 10px; }
-  div.container-search-facets div {
+  div.container-search-facets div, div.container-search-filters div {
     padding: 6px; }
-  div.container-search-facets div.title {
+  div.container-search-facets div.title, div.container-search-filters div.title {
     font: bold 14px/1.2 "Trebuchet MS";
     line-height: 21px;
     color: #424242;
     padding: 5px; }
-  div.container-search-facets div.title {
+  div.container-search-facets div.title, div.container-search-filters div.title {
     background-image: -moz-linear-gradient(top, #f8f3e7, #d6d1d5);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f3e7), to(#d6d1d5)); }
-  div.container-search-facets div.category {
+  div.container-search-facets div.category, div.container-search-facets div.filter, div.container-search-filters div.category, div.container-search-filters div.filter {
     background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd));
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 12px;
     font-weight: bold;
     font-weight: bold; }
-  div.container-search-facets div.subcategory {
+    div.container-search-facets div.category span, div.container-search-facets div.filter span, div.container-search-filters div.category span, div.container-search-filters div.filter span {
+      float: right; }
+  div.container-search-facets div.subcategory, div.container-search-facets div.subfilter, div.container-search-filters div.subcategory, div.container-search-filters div.subfilter {
     border-top: #cdc7be 1px solid; }
-    div.container-search-facets div.subcategory span.count {
+    div.container-search-facets div.subcategory span.count, div.container-search-facets div.subfilter span.count, div.container-search-filters div.subcategory span.count, div.container-search-filters div.subfilter span.count {
       float: right;
       color: #695e49; }
 

@@ -423,3 +423,21 @@ a.button-tertiary-small {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e0e0e0)); }
   a.button-tertiary-small span {
     font: 10px Tahoma, Geneva, sans-serif; }
+
+a.button-cancel {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: #bbb0a3 solid 1px;
+  width: 14px;
+  height: 14px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  padding: 0px;
+  background: #e0e0e0;
+  position: relative;
+  top: 2px; }
+  a.button-cancel span {
+    font: 10px Tahoma, Geneva, sans-serif;
+    position: relative;
+    top: -3px; }

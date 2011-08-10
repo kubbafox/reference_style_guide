@@ -65,6 +65,14 @@
                                           {:name=>'Subcategory 3', :count=>'count3' } ] } do %>
   <% end %>
 
+  <% render :layout=>'container-search-filters', 
+            :locals=>{ :title=>'Name: container-search-filters',
+                       :filters=> ['Filter 1','Filter 2'],
+                       :sub_filters=> [{:name=>'Sub-filter 1', :count=>'count1' },
+                                       {:name=>'Sub-filter 2', :count=>'count2' },
+                                       {:name=>'Sub-filter 3', :count=>'count3' } ] } do %>
+  <% end %>
+
   <% render :layout=>'container-search-results', :locals=>{:title=>'Name: container-search-results'} do %>
   <% end %>
 

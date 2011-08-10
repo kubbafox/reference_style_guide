@@ -125,13 +125,15 @@ div.container-search-form-simple
     @include gradient($white1,$gray1)
     @include font-small
 
-div.container-search-facets
+div.container-search-facets, div.container-search-filters
   @include container-search-advanced-params-common
-  div.category
+  div.category, div.filter
     @include gradient($offwhite1,$beige00)
     @include font-xbig2
     :font-weight bold
-  div.subcategory
+    span /* for the right-justified 'x' button */
+      :float right
+  div.subcategory, div.subfilter
     :border-top $beige0 1px solid
     span.count
       :float right

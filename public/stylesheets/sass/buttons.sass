@@ -53,3 +53,22 @@ a.button-tertiary-small
   @include button-tertiary
   span
     @include font-small
+
+a.button-cancel
+  :display inline-block
+  :text-decoration none
+  :text-align center
+  :border $beige1 solid 1px
+  :width 14px
+  :height 14px
+  :-moz-border-radius 8px
+  :border-radius 8px
+  :padding 0px 
+  :background $gray1
+  :position relative
+  :top 2px
+  span
+    @include font-small
+    :position relative
+    :top -3px
+
