@@ -742,11 +742,23 @@ div.container-search-facets, div.container-search-filters {
     font-weight: bold; }
     div.container-search-facets div.category span, div.container-search-facets div.filter span, div.container-search-filters div.category span, div.container-search-filters div.filter span {
       float: right; }
-  div.container-search-facets div.subcategory, div.container-search-facets div.subfilter, div.container-search-filters div.subcategory, div.container-search-filters div.subfilter {
+  div.container-search-facets div.subcategory, div.container-search-filters div.subcategory {
     border-top: #cdc7be 1px solid; }
-    div.container-search-facets div.subcategory span.count, div.container-search-facets div.subfilter span.count, div.container-search-filters div.subcategory span.count, div.container-search-filters div.subfilter span.count {
+    div.container-search-facets div.subcategory span.count, div.container-search-filters div.subcategory span.count {
       float: right;
       color: #695e49; }
+  div.container-search-facets div.subfilters, div.container-search-filters div.subfilters {
+    padding: 8px; }
+    div.container-search-facets div.subfilters b, div.container-search-filters div.subfilters b {
+      font: 10px Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      text-transform: uppercase; }
+    div.container-search-facets div.subfilters div.subfilter, div.container-search-filters div.subfilters div.subfilter {
+      border-top: #cdc7be 1px solid;
+      padding: 2px 0px 2px 0px; }
+      div.container-search-facets div.subfilters div.subfilter span.count, div.container-search-filters div.subfilters div.subfilter span.count {
+        float: right;
+        color: #695e49; }
 
 div.container-search-results {
   border: #bbb0a3 1px solid;

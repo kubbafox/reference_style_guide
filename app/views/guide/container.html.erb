@@ -68,9 +68,17 @@
   <% render :layout=>'container-search-filters', 
             :locals=>{ :title=>'Name: container-search-filters',
                        :filters=> ['Filter 1','Filter 2'],
-                       :sub_filters=> [{:name=>'Sub-filter 1', :count=>'count1' },
-                                       {:name=>'Sub-filter 2', :count=>'count2' },
-                                       {:name=>'Sub-filter 3', :count=>'count3' } ] } do %>
+                       :sub_filters=> [ { :label => 'Subfilter1',
+                                          :options =>
+                                          [ {:name=>'Option 1', :count=>'count1' },
+                                            {:name=>'Option 2', :count=>'count2' },
+                                            {:name=>'Option 3', :count=>'count3' } ] },
+                                        { :label => 'Subfilter2',
+                                          :options =>
+                                          [ {:name=>'Option 1', :count=>'count1' },
+                                            {:name=>'Option 2', :count=>'count2' },
+                                            {:name=>'Option 3', :count=>'count3' } ] }
+                                      ] } do %>
   <% end %>
 
   <% render :layout=>'container-search-results', :locals=>{:title=>'Name: container-search-results'} do %>

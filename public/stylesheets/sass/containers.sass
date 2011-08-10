@@ -133,12 +133,24 @@ div.container-search-facets, div.container-search-filters
     :font-weight bold
     span /* for the right-justified 'x' button */
       :float right
-  div.subcategory, div.subfilter
+  div.subcategory
     :border-top $beige0 1px solid
     span.count
       :float right
       :color $beige2
-
+  div.subfilters
+    :padding 8px 
+    b
+      @include font-small
+      :font-weight bold
+      :text-transform uppercase
+    div.subfilter
+      :border-top $beige0 1px solid
+      :padding 2px 0px 2px 0px
+      span.count
+        :float right
+        :color $beige2
+  
 div.container-search-results
   @include container-search-advanced-common
   div.title

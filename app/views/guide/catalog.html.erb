@@ -7,11 +7,18 @@
   <% end %>
 
   <% render :layout=>'container-search-filters', 
-            :locals=>{ :title=>'Narrow by Category',
+            :locals=>{ :title=>'Filter Titles',
                        :filters=> ['All Categories','Military'],
-                       :sub_filters=> [{:name=>'Draft Cards', :count=>'3,291' },
-                                       {:name=>'WWI Rolls',   :count=>  '931' },
-                                       {:name=>'WWII Rolls',  :count=>   '12' } ] } do %>
+                       :sub_filters=> [ { :label => 'War',
+                                          :options =>
+                                          [ {:name=>'WWI',   :count=>'12,302' },
+                                            {:name=>'WWII',  :count=> '9,203' },
+                                            {:name=>'Korea', :count=>   '485' } ] },
+                                        { :label => 'Record Type',
+                                          :options =>
+                                          [ {:name=>'Draft Card',       :count=>'55,200' },
+                                            {:name=>'Discharge Letter', :count=> '1,227' } ] }
+                                      ] } do %>
   <% end %>
 
 </div>

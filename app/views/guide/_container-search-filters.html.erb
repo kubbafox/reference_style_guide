@@ -9,9 +9,14 @@
       </div>
     <% end %>  
     <% for sf in sub_filters %>  
-      <div class="subfilter">
-        <a href=""><%= sf[:name] -%></a>
-        <span class="count"><%= sf[:count] -%></span>
+      <div class="subfilters">
+        <b>Filter by <%= sf[:label] -%></b>
+        <% for o in sf[:options] %>  
+          <div class="subfilter">
+            <a href=""><%= o[:name] -%></a>
+            <span class="count"><%= o[:count] -%></span>
+          </div>
+        <% end %>
       </div>
     <% end %>
   </div>
