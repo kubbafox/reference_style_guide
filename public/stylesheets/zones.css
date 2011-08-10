@@ -365,17 +365,29 @@ div.search-col-right {
   border: #bbb0a3 solid 1px;
   border-left: #dddddd 2px solid; }
 
-div.search2col-colleft {
+div.search2col-main div.params {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 white;
+  border-color: #bbb0a3 -moz-use-text-color #bbb0a3 #bbb0a3;
+  border-style: solid none solid solid;
+  border-width: 1px 0 1px 1px;
+  float: right;
   width: 226px;
-  float: left;
-  padding: 0px 0px 6px 6px;
-  border: #bbb0a3 1px solid;
-  border-right: 0px; }
-
-div.search2col-colright {
-  width: 714px;
+  position: relative;
   z-index: 1;
+  padding: 0px 0px 6px 6px;
+  margin: 0 0 20px; }
+div.search2col-main div.matches {
+  width: 713px;
+  float: right;
+  z-index: 0;
   padding: 6px;
   padding-top: 0px;
   border: #bbb0a3 1px solid;
-  margin-left: 232px; }
+  margin: 0 0 0 -1px;
+  background: none repeat scroll 0 0 white;
+  position: relative; }
