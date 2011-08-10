@@ -814,6 +814,21 @@ div.container-search-results {
     background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
     background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd)); }
 
+div.container-search-result-tool {
+  border: #bbb0a3 1px solid;
+  margin-top: 10px; }
+  div.container-search-result-tool div {
+    padding: 6px; }
+  div.container-search-result-tool div.title {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #695e49;
+    padding: 3px 5px 3px 5px;
+    background-image: -moz-linear-gradient(top, #fbf9fa, #e0e0e0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#e0e0e0));
+    border-bottom: #bbb0a3 1px solid; }
+
 /* Menubar container in the header
  */
 header div.menubar {

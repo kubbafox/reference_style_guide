@@ -10,30 +10,38 @@
     
     </div>
     <div class="params">
-    
-      <% render :layout=>'container-search-form-simple', :locals=>{:title=>'Search Titles'} do %>
+     
+      <% render :layout=>'container-search-result-tool', :locals=>{:title=>'Page Tools'} do %>
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
       <% end %>
-    
-      <% render :layout=>'container-search-filters', 
-                :locals=>{ :title=>'Filter Titles',
-                           :filters=> ['All Categories','Military'],
-                           :sub_filters=> [ { :label => 'War',
-                                              :options =>
-                                              [ {:name=>'WWI',   :count=>'12,302' },
-                                                {:name=>'WWII',  :count=> '9,203' },
-                                                {:name=>'Korea', :count=>   '485' } ] },
-                                            { :label => 'Record Type',
-                                              :options =>
-                                              [ {:name=>'Draft Card',       :count=>'55,200' },
-                                                {:name=>'Discharge Letter', :count=> '1,227' } ] }
-                                          ] } do %>
+
+      <% render :layout=>'container-search-result-tool', :locals=>{:title=>'Comments'} do %>
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
+        Filler Filler Filler.
       <% end %>
     
     </div>
   </div>
   <div class="suggestions">
  
-    <% render :layout=>'container-search-form-simple', :locals=>{:title=>'Search Titles'} do %>
+    <% render :layout=>'container-search-result-tool', :locals=>{:title=>'Suggestions'} do %>
+      Filler Filler Filler.
+      Filler Filler Filler.
+      Filler Filler Filler.
+      Filler Filler Filler.
+      Filler Filler Filler.
+      Filler Filler Filler.
+      Filler Filler Filler.
     <% end %>
 
   </div>
