@@ -1,0 +1,40 @@
+<p class="font-small"><%= link_to 'Style Guide' %> >> Search Result Pages</p>
+<h1 class="font-xbig">Style Guide: Search Result Pages</h1>
+
+<div class="search3col-main">
+  <div class="matches-and-params">
+    <div class="matches">
+    
+      <% render :layout=>'container-search-results', :locals=>{:title=>'Matches 1-25 of 30,176'} do %>
+      <% end %>
+    
+    </div>
+    <div class="params">
+    
+      <% render :layout=>'container-search-form-simple', :locals=>{:title=>'Search Titles'} do %>
+      <% end %>
+    
+      <% render :layout=>'container-search-filters', 
+                :locals=>{ :title=>'Filter Titles',
+                           :filters=> ['All Categories','Military'],
+                           :sub_filters=> [ { :label => 'War',
+                                              :options =>
+                                              [ {:name=>'WWI',   :count=>'12,302' },
+                                                {:name=>'WWII',  :count=> '9,203' },
+                                                {:name=>'Korea', :count=>   '485' } ] },
+                                            { :label => 'Record Type',
+                                              :options =>
+                                              [ {:name=>'Draft Card',       :count=>'55,200' },
+                                                {:name=>'Discharge Letter', :count=> '1,227' } ] }
+                                          ] } do %>
+      <% end %>
+    
+    </div>
+  </div>
+  <div class="suggestions">
+ 
+    <% render :layout=>'container-search-form-simple', :locals=>{:title=>'Search Titles'} do %>
+    <% end %>
+
+  </div>
+</div>
