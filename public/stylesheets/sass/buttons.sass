@@ -55,20 +55,16 @@ a.button-tertiary-small
     @include font-small
 
 a.button-cancel
-  :display inline-block
+  @include font-small
   :text-decoration none
   :text-align center
-  :border $beige1 solid 1px
+  :font-family monospace
+  :display block
   :width 14px
   :height 14px
+  :line-height 14px
   :-moz-border-radius 8px
   :border-radius 8px
-  :padding 0px 
+  :border $beige1 solid 1px
   :background $gray1
-  :position relative
-  :top 2px
-  span
-    @include font-small
-    :position relative
-    :top -3px
 

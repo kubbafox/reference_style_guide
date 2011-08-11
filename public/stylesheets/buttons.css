@@ -425,19 +425,15 @@ a.button-tertiary-small {
     font: 10px Tahoma, Geneva, sans-serif; }
 
 a.button-cancel {
-  display: inline-block;
+  font: 10px Tahoma, Geneva, sans-serif;
   text-decoration: none;
   text-align: center;
-  border: #bbb0a3 solid 1px;
+  font-family: monospace;
+  display: block;
   width: 14px;
   height: 14px;
+  line-height: 14px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  padding: 0px;
-  background: #e0e0e0;
-  position: relative;
-  top: 2px; }
-  a.button-cancel span {
-    font: 10px Tahoma, Geneva, sans-serif;
-    position: relative;
-    top: -3px; }
+  border: #bbb0a3 solid 1px;
+  background: #e0e0e0; }
