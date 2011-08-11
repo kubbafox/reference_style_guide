@@ -896,13 +896,19 @@ div.container-search-result {
         background-color: white; }
 
 div.callout {
+  padding: 5px;
+  margin-bottom: 10px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   position: relative;
   margin: 12px 20px 5px 20px;
   width: auto;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  padding: 5px;
-  border-radius: 6px;
   border: 1px solid #bbb0a3;
   background-color: #f5efdd; }
   div.callout span.notch-bg, div.callout span.notch-border {
