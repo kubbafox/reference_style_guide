@@ -555,6 +555,33 @@ a.bg-dark:hover {
   -moz-border-bottom-right-radius: 3px;
   border-bottom-right-radius: 3px; }
 
+/* Menubar container in the header
+ */
+header div.menubar {
+  padding: 5px;
+  margin-bottom: 10px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: #bbb0a3 solid 1px;
+  background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd));
+  padding: 0px; }
+  header div.menubar a {
+    display: inline-block;
+    text-decoration: none;
+    border-right: #bbb0a3 solid 1px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    header div.menubar a span {
+      padding: 10px; }
+
 /* Neutral Widget (the kind on the homepage)
  */
 div.container-neutral {
@@ -823,35 +850,73 @@ div.container-search-result-tool {
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 12px;
     font-weight: bold;
-    color: #695e49;
     padding: 3px 5px 3px 5px;
-    background-image: -moz-linear-gradient(top, #fbf9fa, #e0e0e0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#e0e0e0));
     border-bottom: #bbb0a3 1px solid; }
+  div.container-search-result-tool div.title {
+    color: #695e49;
+    background-image: -moz-linear-gradient(top, #fbf9fa, #e0e0e0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#e0e0e0)); }
 
-/* Menubar container in the header
- */
-header div.menubar {
+div.container-search-result {
+  border: #bbb0a3 1px solid;
+  margin-top: 10px; }
+  div.container-search-result div {
+    padding: 6px; }
+  div.container-search-result div.title {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 5px 3px 5px;
+    border-bottom: #bbb0a3 1px solid; }
+  div.container-search-result div.title {
+    color: white;
+    background-image: -moz-linear-gradient(top, #96a336, #566c11);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#96a336), to(#566c11)); }
+  div.container-search-result div.main-bg {
+    background-color: #d8e091;
+    padding: 5px; }
+    div.container-search-result div.main-bg div.main {
+      background-image: -moz-linear-gradient(top, #f5efdd, white);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#f5efdd), to(white));
+      padding: 0; }
+      div.container-search-result div.main-bg div.main div.key, div.container-search-result div.main-bg div.main div.value {
+        display: inline-block;
+        margin: 0 -2px 0 -2px;
+        border-width: 0px 1px 1px 0px;
+        border-color: #d6d1d5;
+        border-style: none solid solid none;
+        padding: 3px 8px 3px 8px; }
+      div.container-search-result div.main-bg div.main div.key {
+        width: 30%;
+        background-color: #e0e0e0;
+        text-align: right;
+        color: #666666; }
+      div.container-search-result div.main-bg div.main div.value {
+        width: 45%;
+        background-color: white; }
+
+div.callout {
+  position: relative;
+  margin: 12px 20px 5px 20px;
+  width: auto;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
   padding: 5px;
-  margin-bottom: 10px;
-  -moz-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  -moz-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
-  -moz-border-bottom-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  -moz-border-bottom-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border: #bbb0a3 solid 1px;
-  background-image: -moz-linear-gradient(top, #fbf9fa, #f5efdd);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf9fa), to(#f5efdd));
-  padding: 0px; }
-  header div.menubar a {
-    display: inline-block;
-    text-decoration: none;
-    border-right: #bbb0a3 solid 1px;
-    height: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px; }
-    header div.menubar a span {
-      padding: 10px; }
+  border-radius: 6px;
+  border: 1px solid #bbb0a3;
+  background-color: #f5efdd; }
+  div.callout span.notch-bg, div.callout span.notch-border {
+    position: absolute;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 0;
+    margin: 0;
+    padding: 0; }
+  div.callout span.notch-bg {
+    top: -10px;
+    border-bottom-color: #f5efdd; }
+  div.callout span.notch-border {
+    top: -11px;
+    border-bottom-color: #bbb0a3; }

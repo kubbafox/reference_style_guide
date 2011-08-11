@@ -5,7 +5,13 @@
   <div class="matches-and-params">
     <div class="matches">
     
-      <% render :layout=>'container-search-results', :locals=>{:title=>'Matches 1-25 of 30,176'} do %>
+      <% render :layout=>'container-search-result', 
+                :locals=>{ :title=>'1900 United States Federal Census about Saml B Linn',
+                           :search_result => [ { :key=>'Name', :value=>'Saml B Linn' },
+                                               { :key=>'Home in 1900', :value=>'Saml B Linn' },
+                                               { :key=>'Age', :value=>'Saml B Linn' },
+                                               { :key=>'Birth Date', :value=>'Saml B Linn' },
+                                               { :key=>'Birthplace', :value=>'Saml B Linn' } ] } do %>
       <% end %>
     
     </div>

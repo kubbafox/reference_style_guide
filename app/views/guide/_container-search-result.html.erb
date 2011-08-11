@@ -1,0 +1,31 @@
+  <div class="container-search-result">
+    <div class="title">
+      <%= title -%>
+    </div>
+    <div class="main-bg">
+      <div class="main">
+        <% for row in search_result %>
+          <div class="key"><%= row[:key] -%>:</div>
+          <div class="value"><%= row[:value] -%></div>
+        <% end %>
+        <br />
+        This is a line of text<br />
+        This is a line of text<br />
+        This is a line of text<br />
+
+        <% render :layout=>'container-callout', :locals=>{  } do %>
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout
+          Callout Callout Callout Callout Callout Callout Callout Callout.
+        <% end %>
+
+        This is a line of text<br />
+        This is a line of text<br />
+      </div>
+    </div>
+  </div>

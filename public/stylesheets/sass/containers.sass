@@ -3,6 +3,24 @@
 @import links
 @import boxes
 
+/*
+ * Menubar container in the header
+ */
+header div.menubar
+  @include box-rounded-soft
+  :border $beige1 solid 1px
+  @include gradient($offwhite1,$beige00)
+  :padding 0px
+  a
+    :display inline-block
+    :text-decoration none
+    :border-right $beige1 solid 1px
+    :height 20px
+    :padding-top 5px
+    :padding-bottom 5px
+    span
+      :padding 10px
+
 /* 
  * Neutral Widget (the kind on the homepage)
  */ 
@@ -194,33 +212,72 @@ div.container-search-results
     :color $gray6
     @include gradient($offwhite1, $beige00)
 
-div.container-search-result-tool
+@mixin container-search-simple-common
   :border $beige1 1px solid
   :margin-top 10px
   div
     :padding 6px
   div.title
     @include font-xbig2
-    :color $beige2
     :padding 3px 5px 3px 5px
-    @include gradient($offwhite1, $gray1)
     :border-bottom $beige1 1px solid
 
-/*
- * Menubar container in the header
- */
-header div.menubar
-  @include box-rounded-soft
-  :border $beige1 solid 1px
-  @include gradient($offwhite1,$beige00)
-  :padding 0px
-  a
-    :display inline-block
-    :text-decoration none
-    :border-right $beige1 solid 1px
-    :height 20px
-    :padding-top 5px
-    :padding-bottom 5px
-    span
-      :padding 10px
-  
+div.container-search-result-tool
+  @include container-search-simple-common
+  div.title
+    :color $beige2
+    @include gradient($offwhite1, $gray1)
+ 
+div.container-search-result
+  @include container-search-simple-common
+  div.title
+    :color $white1
+    @include gradient($green1, $green2)
+  div.main-bg 
+    :background-color $green00
+    :padding 5px
+    div.main
+      @include gradient($beige00, $white1)
+      :padding 0
+      div.key, div.value
+        :display inline-block
+        :margin 0 -2px 0 -2px
+        :border-width 0px 1px 1px 0px
+        :border-color $offwhite2
+        :border-style none solid solid none
+        :padding 3px 8px 3px 8px
+      div.key
+        :width 30%
+        :background-color $gray1
+        :text-align right
+        :color $gray5
+      div.value
+        :width 45%
+        :background-color $white1
+
+div.callout 
+  :position relative
+  :margin 12px 20px 5px 20px
+  :width auto
+  :-moz-border-radius 6px
+  :-webkit-border-radius 6px
+  :padding 5px
+  :border-radius 6px
+  :border 1px solid $beige1
+  :background-color $beige00
+  span.notch-bg, span.notch-border
+    :position absolute
+    :left 20px
+    :width 0
+    :height 0
+    :border 10px solid transparent
+    :border-top 0
+    :margin 0
+    :padding 0
+  span.notch-bg
+    :top -10px
+    :border-bottom-color $beige00
+  span.notch-border
+    :top -11px
+    :border-bottom-color $beige1
+
