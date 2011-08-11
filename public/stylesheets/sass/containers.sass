@@ -236,7 +236,7 @@ div.container-search-result
   div.main-bg 
     :background-color $green00
     :padding 5px
-    div.main
+    div.main-result
       @include gradient($beige00, $white1)
       :padding 0
       div.key, div.value
@@ -254,11 +254,21 @@ div.container-search-result
       div.value
         :width 45%
         :background-color $white1
+    div.main-info
+      :background-color $white1
+      div.metadata
+        b
+          @include font-xbig2
+          :color $gray5
+        p
+          :margin 0
+          :color $gray6
+
 
 div.callout 
   @include box-rounded-soft
   :position relative
-  :margin 12px 20px 5px 20px
+  :margin 12px 40px 5px 40px
   :width auto
   :border 1px solid $beige1
   :background-color $beige00
@@ -277,4 +287,9 @@ div.callout
   span.notch-border
     :top -11px
     :border-bottom-color $beige1
+  b
+    @include font-xbig2
+    :color $beige2
+  p
+    :margin 0
 

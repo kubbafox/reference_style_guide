@@ -875,25 +875,35 @@ div.container-search-result {
   div.container-search-result div.main-bg {
     background-color: #d8e091;
     padding: 5px; }
-    div.container-search-result div.main-bg div.main {
+    div.container-search-result div.main-bg div.main-result {
       background-image: -moz-linear-gradient(top, #f5efdd, white);
       background-image: -webkit-gradient(linear, left top, left bottom, from(#f5efdd), to(white));
       padding: 0; }
-      div.container-search-result div.main-bg div.main div.key, div.container-search-result div.main-bg div.main div.value {
+      div.container-search-result div.main-bg div.main-result div.key, div.container-search-result div.main-bg div.main-result div.value {
         display: inline-block;
         margin: 0 -2px 0 -2px;
         border-width: 0px 1px 1px 0px;
         border-color: #d6d1d5;
         border-style: none solid solid none;
         padding: 3px 8px 3px 8px; }
-      div.container-search-result div.main-bg div.main div.key {
+      div.container-search-result div.main-bg div.main-result div.key {
         width: 30%;
         background-color: #e0e0e0;
         text-align: right;
         color: #666666; }
-      div.container-search-result div.main-bg div.main div.value {
+      div.container-search-result div.main-bg div.main-result div.value {
         width: 45%;
         background-color: white; }
+    div.container-search-result div.main-bg div.main-info {
+      background-color: white; }
+      div.container-search-result div.main-bg div.main-info div.metadata b {
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #666666; }
+      div.container-search-result div.main-bg div.main-info div.metadata p {
+        margin: 0;
+        color: #424242; }
 
 div.callout {
   padding: 5px;
@@ -907,7 +917,7 @@ div.callout {
   -moz-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
   position: relative;
-  margin: 12px 20px 5px 20px;
+  margin: 12px 40px 5px 40px;
   width: auto;
   border: 1px solid #bbb0a3;
   background-color: #f5efdd; }
@@ -926,3 +936,10 @@ div.callout {
   div.callout span.notch-border {
     top: -11px;
     border-bottom-color: #bbb0a3; }
+  div.callout b {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #695e49; }
+  div.callout p {
+    margin: 0; }
