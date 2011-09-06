@@ -1,4 +1,4 @@
-AncestryStyleGuide::Application.routes.draw do
+ReferenceStyleGuide::Application.routes.draw do
   get "guide/index"
 
   # The priority is based upon order of creation:

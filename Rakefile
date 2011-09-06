@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-AncestryStyleGuide::Application.load_tasks
+ReferenceStyleGuide::Application.load_tasks
